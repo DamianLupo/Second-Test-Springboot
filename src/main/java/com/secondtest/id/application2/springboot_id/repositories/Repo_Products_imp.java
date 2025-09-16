@@ -3,8 +3,12 @@ package com.secondtest.id.application2.springboot_id.repositories;
 import java.util.Arrays;
 import java.util.List;
 
+
+import org.springframework.stereotype.Repository;
+
 import com.secondtest.id.application2.springboot_id.models.Product;
 
+@Repository
 public class Repo_Products_imp implements ProductRepositorie {
     List <Product> data;
     public Repo_Products_imp(){
